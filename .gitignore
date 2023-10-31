@@ -1,0 +1,20 @@
+# Node.js specific
+database/node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+database/*.env
+
+# Lock files (Optional: Some prefer to include them in version control)
+# database/package-lock.json
+# database/yarn.lock
+
+# Editor and IDE specific
+.vscode/
+*.swp
+*.swo
+*.idea/
+.DS_Store
