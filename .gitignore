@@ -1,20 +1,37 @@
-# Node.js specific
-database/node_modules/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Dependency directories
+node_modules/
 
-# Docker
-database/*.env
+# Optional npm cache directory
+.npm
 
-# Lock files (Optional: Some prefer to include them in version control)
-# database/package-lock.json
-# database/yarn.lock
+# Optional eslint cache
+.eslintcache
 
-# Editor and IDE specific
-.vscode/
-*.swp
-*.swo
-*.idea/
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env
+
+# docker-compose override files
+*docker-compose*override*
+
+# Docker volumes or local databases
+data/
+volumes/
+
+# Operating System Files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# This because we want to use mysql_native_password
+# this need the password and user information
+db/init-db.sql

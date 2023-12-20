@@ -1,0 +1,23 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "A profile app for Ashkan Zahedanaraki containing all project and experince",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshBeast/profileWeb.git"
+  },
+  "author": "Ashkan Zahedanaraki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshBeast/profileWeb/issues"
+  },
+  "homepage": "https://github.com/AshBeast/profileWeb#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
