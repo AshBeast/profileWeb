@@ -35,3 +35,5 @@ Thumbs.db
 # This because we want to use mysql_native_password
 # this need the password and user information
 db/init-db.sql
+client/src/lib/images/scary.jpg
+client/yarn.lock
